@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>尚兴园林</title>
+	<link rel="stylesheet" type="text/css" href="css/gwidth.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="logo jz">
+			<img src="images/logo.png">
+			<p>河北尚兴园林有限公司</p>
+			<span class="fr dh">15625464568</span>
+		</div>
+	</header>
+	<nav class="jz">
+		<p class="na_ jz">
+			<a href="https://lbxiaoxin.github.io/sxyl/index.html" class="act">首页</a>
+			<a href="https://lbxiaoxin.github.io/sxyl/jgzs/jgzs.html">景观展示</a>
+			<a href="https://lbxiaoxin.github.io/sxyl/lxwm/lxwm.html">联系我们</a>
+			<a href="https://lbxiaoxin.github.io/sxyl/ylzs/ylzs.html">园林知识</a>
+			<a href="https://lbxiaoxin.github.io/sxyl/gywm/rywm.html" class="act">关于我们</a>
+		</p>
+	</nav>
+	<div class="banner">
+		<img src="images/banner.png">
+	</div>
+	<div class="gg jz">
+		<p class="z fl">网站公告</p>
+		<div id="boxs">
+			<span class="l">【</span>
+		<ul id="imgss" style="top:-178px">
+			<li><a href="#">尚兴愿与广大新老客户做真诚欢迎广大，客户洽谈合作最真诚的沟通。</a></li>
+			<li><a href="#">尚兴愿与广大新老客户做最真诚的沟通，真诚欢迎广大客户洽谈合作。</a></li>
+			<li><a href="#">客户做最真诚的沟尚兴愿与广大新老通，真诚欢迎广大客户洽谈合作。</a></li>
+			<li><a href="#">尚沟通，真诚欢迎广大兴愿与广大新老客户做最真诚的客户洽谈合作。</a></li>
+			<li><a href="#">真诚的沟通，真诚欢迎广大客户尚兴愿与广大新老客户做最洽谈合作。</a></li>
+			<li><a href="#">尚兴愿与广大新老客户做最真诚的沟通，真诚欢迎广大客户洽谈合作。</a></li>
+		</ul>
+		<span class="r">】</span>
+		<input type="text" placeholder="关键字">
+	</div>
+	</div>
+	<div class="kong jz">
+		<h2>关于我们</h2>
+		<p>河北尚兴园林古建筑工程有限公司，成立于2008年，公司承揽各类文物修缮、古建筑修缮、重建，仿古建筑设计施工，市政园林绿化工程施工，喷泉、假山制作安装等。几年来，承蒙社会各界人士的关心和支持，河北尚兴园林古建筑工程有限公司充分发挥自身优势，积极面向市场，参与竞争，服务城市园林建筑和花园城市建筑，取得了良好的生态效益、社会效益和经济效益，受到了社会各界的好评，有较好的知名度和美誉度。完成了众多园林绿化工程的设计与施工，其中有城市公园、森林公园、机关学校、工矿企业、居住区、城市街道绿化及大型活动的花卉摆设等园林绿化美化项目，积累了丰富的施工和养护管理经验，获得了众多客户的好评。我们将再接再励，不断加强自身建设。随着省内外文化旅游开发事业的兴起与繁荣，我们毅然决定抓住这一历史机遇，全面进军园林古建行业。</p>
+		<ul>
+			<li>河北尚兴园林古建筑工程有限公司可做如下承诺：</li>
+			<li>1、可以保证施工价格为行业最低；</li>
+			<li>2、全国统一价格：制作的同类假山、仿木、假树，不分地域，全国统一价格。</li>
+			<li>3、技术人员最少有20年以上施工经验,价格最低质量第一,</li>
+		</ul>
+	</div>
+
+	<footer class="clearfix">
+		<div class="yi jz">
+			<ul class="u_o fl clearfix">
+				<li>河北尚兴园林古建筑工程有限公司</li>
+				<li>联系人：安经理</li>
+				<li>手机：13733376166</li>
+				<li>地址：河北省保定市唐县北店头乡杨庄工业园区</li>
+				<li>ICP号：1252-12256-5465</li>
+			</ul>
+			<span>分享到：</span>
+			<ul class="u_t fr clearfix">
+				<li><a href="#"><img src="images/tu15.gif"></a></li>
+				<li><a href="#"><img src="images/tu16.gif"></a></li>
+				<li><a href="#"><img src="images/tu17.gif"></a></li>
+				<li><a href="#"><img src="images/tu18.gif"></a></li>
+				<li><a href="#"><img src="images/tu14.gif"></a></li>
+			</ul>
+		</div>
+<p class="di">版权所有权：版权所有会属于河北尚兴园林古建筑工程有限公司</p>
+	</footer>
+	<script>
+	function $(id){
+		return document.getElementById(id);
+	}
+	var imgss=$('imgss');
+	var t=null;
+	var speed=37;
+	t=setInterval(function(){
+		var top=imgss.offsetTop;
+		if(top>=0){
+			imgss.style.top='-178px';
+		}else{
+			imgss.style.top=top+speed+'px';
+		}
+	},3000);
+	</script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jq.js"></script>
+</body>
+</html>
